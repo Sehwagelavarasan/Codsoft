@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Opening Day-Offer</title>
+<style>
+.coffee{
+    text-align: center;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000000;
+}
+label {
+    font-weight:bolder;
+}
+input[type="text"],
+select,
+input[type="tel"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #008080;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #005757;
+}
+.cafe{
+    padding:15px;
+    background:linear-gradient(90deg,#8B4513 20%,#D2B48C 50%,#F5DEB3 80%);
+}
+</style>
+</head>
+<body>
+<div class="cafe">
+<form class="coffee">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="FirstName" name="FirstName" placeholder="Enter your Full Name" required><br><br>
+    
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" required><br><br>
+
+    <label for="EmailID">Email ID:</label>
+    <input type="text" id="EmailID" name="EmailID" placeholder="Enter your EmailID"  required><br><br>
+    
+    <label for="mobile">Mobile No:</label>
+    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="Enter your Mobile.no" required><br><br>
+    
+    <input type="submit" value="Submit" class="submit-button">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #555;
+}
+footer{
+    background:linear-gradient(45deg,slategray,#FFDAB9);
+    color:chocolate;
+    padding:15px;
+    text-align: center;
+}
+p{
+    background:linear-gradient(45deg,slategrey,#FFDAB9);
+    color:chocolate;
+    padding:15px;
+    text-align: center;
+
+}
+div{
+    padding:40px;
+}
+ul,li{
+    cursor: pointer;
+}
+li:hover{
+    color:bisque;
+}
+div{
+    background-image: url(2632475.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    color:aliceblue;
+}
